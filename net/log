@@ -1,0 +1,74 @@
+94616 DNS Prefetch: www.google.com
+94616 DNS Resolve: www.google.com
+106784 Request start: http://www.taobao.com/
+106866 DNS Resolve: www.taobao.com
+106866 Preconnect InitSocketHandleForHttpRequest
+106866 DNS Resolve: www.taobao.com
+106893 DNS Resolve: www.taobao.com => 117.41.240.241 (async)
+106893 TCP connect 117.41.240.241:80.
+106893 TCP connected to 117.41.240.241:80, error no = 0.
+107065 Predictor LearnFromNavigation(http://www.taobao.com/,http://m.taobao.com/)
+107065 Predictor PrepareFrameSubresources(http://m.taobao.com/)
+107065 PreconnectOnIOThread(http://a.tbcdn.cn/,...,5)
+107065 DNS Resolve: a.tbcdn.cn
+107065 Preconnect PreconnectSocketsForHttpRequest
+107065 DNS Resolve: a.tbcdn.cn
+107065 DNS Resolve: a.tbcdn.cn
+107069 DNS Resolve: a.tbcdn.cn
+107069 DNS Resolve: a.tbcdn.cn
+107069 DNS Resolve: a.tbcdn.cn
+107069 Created preconnect streams.
+107069 PreconnectOnIOThread(http://img01.taobaocdn.com/,...,2)
+107069 DNS Resolve: img01.taobaocdn.com
+107069 Preconnect PreconnectSocketsForHttpRequest
+107069 DNS Resolve: img01.taobaocdn.com
+107069 DNS Resolve: img01.taobaocdn.com
+107069 Created preconnect streams.
+107069 PreconnectOnIOThread(http://img02.taobaocdn.com/,...,2)
+107069 DNS Resolve: img02.taobaocdn.com
+107069 Preconnect PreconnectSocketsForHttpRequest
+107069 DNS Resolve: img02.taobaocdn.com
+107069 DNS Resolve: img02.taobaocdn.com
+107069 Created preconnect streams.
+107073 PreconnectOnIOThread(http://img03.taobaocdn.com/,...,2)
+107073 DNS Resolve: img03.taobaocdn.com
+107073 Preconnect PreconnectSocketsForHttpRequest
+107073 DNS Resolve: img03.taobaocdn.com
+107073 DNS Resolve: img03.taobaocdn.com
+107073 Created preconnect streams.
+107073 PreconnectOnIOThread(http://img04.taobaocdn.com/,...,3)
+107073 DNS Resolve: img04.taobaocdn.com
+107073 Preconnect PreconnectSocketsForHttpRequest
+107073 DNS Resolve: img04.taobaocdn.com
+107073 DNS Resolve: img04.taobaocdn.com
+107073 DNS Resolve: img04.taobaocdn.com
+107073 Created preconnect streams.
+107073 PreconnectOnIOThread(http://m.taobao.com/,...,3)
+107076 DNS Resolve: m.taobao.com
+107076 Preconnect PreconnectSocketsForHttpRequest
+107076 DNS Resolve: m.taobao.com
+107076 DNS Resolve: m.taobao.com
+107080 DNS Resolve: m.taobao.com
+107080 Created preconnect streams.
+107080 DNS Prefetch: s.m.taobao.com
+107080 DNS Resolve: s.m.taobao.com
+107080 DNS Prefetch: www.taobao.com
+107080 DNS Resolve: www.taobao.com
+107080 DNS Resolve: m.taobao.com
+107080 Preconnect InitSocketHandleForHttpRequest
+107096 DNS Resolve: a.tbcdn.cn => 221.233.135.251 (async)
+107096 TCP connect 221.233.135.251:80.
+107096 TCP connected to 221.233.135.251:80, error no = 0.
+107096 DNS Resolve: a.tbcdn.cn => 221.233.135.251 (async)
+107096 TCP connect 221.233.135.251:80.
+107100 TCP connected to 221.233.135.251:80, error no = 0.
+107100 DNS Resolve: a.tbcdn.cn => 221.233.135.251 (async)
+107100 TCP connect 221.233.135.251:80.
+107104 TCP connected to 221.233.135.251:80, error no = 0.
+107104 DNS Resolve: a.tbcdn.cn => 221.233.135.251 (async)
+107104 TCP connect 221.233.135.251:80.
+107108 TCP connected to 221.233.135.251:80, error no = 0.
+107108 DNS Resolve: a.tbcdn.cn => 221.233.135.251 (async)
+107112 TCP connect 221.233.135.251:80.
+107116 TCP connected to 221.233.135.251:80, error no = 0.
+107116 DNS Resolve: img01.taobaocdn.com => 61.183.52.240 (async)

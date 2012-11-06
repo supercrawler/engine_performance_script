@@ -1,0 +1,8 @@
+var ad_56com_client_area="ºþ±±Ê¡ÎäººÊÐ-119.97.214.98";
+var ad_56com_client_time="1349772256";
+var ad_56com_client_time="1349772242";var ad_56com_ads = new Array(new Array(),new Array());
+ad_56com_ads[0][0]=3425;ad_56com_ads[0][1]="http://acs.56.com/redirect/view/3425/http://cdn.56imgs.com/images/tuiguang/201209/3425_630x90_0929.jpg";ad_56com_ads[0][2]="http://www.56.com/u36/v_NzM5NzIyOTc.html";ad_56com_ads[0][3]="";ad_56com_ads[0][4]=1;ad_56com_ads[0][5]=1349712000;ad_56com_ads[0][6]=1349798400;ad_56com_ads[0][7]=4;ad_56com_ads[0][8]="";ad_56com_ads[0][9]=0;ad_56com_ads[0][10]="";ad_56com_ads[0][11]="<div acs=1><a href=\"http://acs.56.com/redirect/click/3425/http://www.56.com/u36/v_NzM5NzIyOTc.html\" target=_blank><img width=WIDTH_VAR height=HEIGHT_VAR src=\"http://acs.56.com/redirect/view/3425/http://cdn.56imgs.com/images/tuiguang/201209/3425_630x90_0929.jpg\" border=0></a></div>";
+var corplist=",rison,nba,csdv2010,disney,ice907,byd5665,jihuijige,dengzhg,tyrrande,mylee2011,yulujihua,goodyear11,leejeanschina,mygoodyear,na_highness,bj56com,goodyear2011,lenglingqi,greenpeacechina,nevershow,leejeanschina,morningnakata,qudiaoguanggao,nanyudd,khanacadamy,moonlily79,woxiustar,khanacademy,pupyqing,cluoqi,guosong8544,iceteabj,r260104588,iceteagz,iceteash,iceteazz,iceteahf,iceteanj,iceteann,iceteaxm,iceteawh,iceteacd,iceteawlmq,itnode,wwfchina,iceteakm,iceteacs,itnodetest,petaasia,xl-41214276,r260104588,euroleague,ligabbva,ligabbva,liying_8599@hotmail.com,iceteacq,thomaslow911,zenbook,yuanhong2012,zestyfresh,iam56presents,r452193901,r454280964,wallacewaa,sunsi0086,lihaiman1,toufangzu,hafeiauto,r222850102,tef_56,iam56presents iam56presents  iam56presen,rr-17962133,r224156647,bjmain,impaike,newcyan,juntingzhang,r484673563,";
+
+
+acs_display_ads();

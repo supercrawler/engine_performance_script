@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Dolphin Engine Performance indicators</title>
+<style type="text/css">
+.datagrid table {border-collapse: collapse;text-align: left;width: 100%;}
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif;background: #fff;
+overflow: hidden;border: 1px solid #006699;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.datagrid table td,.datagrid table th {padding: 3px 10px;}
+.datagrid table thead th {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+background: -moz-linear-gradient(center top, #006699 5%, #00557F 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699',endColorstr='#00557F' );
+background-color: #006699;color: #FFFFFF;	font-size: 15px;font-weight: bold;border-left: 1px solid #0070A8;}
+.datagrid table thead th:first-child {border: none;}
+.datagrid table tbody td {color: #00557F;	border-left: 1px solid #E1EEF4;	font-size: 12px;font-weight: normal;}
+.datagrid table tbody .alt td {background: #E1EEf4;color: #00557F;}
+.datagrid table tbody td:first-child {border: none;}
+.datagrid table tfoot td div {border-top: 1px solid #006699;background: #E1EEf4;}
+.datagrid table tfoot td {padding: 0;	font-size: 12px}
+.datagrid table tfoot td div {padding: 2px;}
+.datagrid table tfoot td ul {	margin: 0;	padding: 0;	list-style: none;	text-align: right;}
+.datagrid table tfoot  li {display: inline;}
+.datagrid table tfoot li a {text-decoration: none;display: inline-block;padding: 2px 8px;
+margin: 1px;color: #006699;font-size: 14px;font-weight: bold;}
+.datagrid table tfoot ul.active,.datagrid table tfoot ul a:hover {
+text-decoration: none;border-color: #00557F;color: #FFFFFF;background: none;background-color: #006699;}
+</style>
+</head>
+<body>
+<div class="datagrid">
+<table><thead>
+<tr><th>Category</th><th>Item</th><th>Owner</th><th>Target</th><th colspan="2">Dolphin Engine EN</th>
+<th >Dolphin Browser HD</th><th colspan="2">Dolphin Engine CN</th><th>Dolphin Browser CN</th><th>How to calculate</th></tr>
+</thead>
+<tfoot><tr><td colspan="13"><div id="paging">
+<ul><li><a href="#"><span>日期：2012-08-13 22:28:18</span></a></li></ul>	</div></tr></tfoot>
+<tbody>
+<tr class="alt"><td></td><td></td><td></td><td></td>
+<td>1.0.4,</td>
+<td>1.0.5</td>
+<td></td>
+<td>1.0.4,</td>
+<td>1.0.5</td>
+<td></td><td></td></tr>
+<tr><td>启动速度</td><td>启动速度(ms)</td><td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td>从点击应用到用户可以实际操作的时间（统计平均值）</td></tr>
+<tr class="alt"><td>网页打开速度</td><td>网页打开速度(ms)</td><td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td>从打开网页到加载完成的时间（统计平均值）</td></tr>
+<tr><td rowspan="3">UI响应度</td><td>三屏滑动流畅度(FPS)</td><td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td>用户进行滑屏操作（调出Bookmark和Addon栏）时的帧率（统计平均值）</td>	</tr>
+<tr class=alt><td>Tab动画流畅度(FPS)</td><td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td>用户新建/关闭Tab时的帧率（分别统计统计平均值）</td></tr>
+<tr><td>地址栏动画流畅度(FPS)</td><td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td>用户打开地址栏时的帧率（统计平均值）</td></tr>
+<tr class="alt"><td rowspan=2>兼容性及稳定性（主程序）</td><td>Crash比例(%)</td><td></td><td></td>
+<td>10.50(2085/19866),</td>
+<td>19.56(978/5001)</td>
+<td></td>
+<td>6.25(181/2911),</td>
+<td>15.95(284/1781)</td>
+<td></td><td>Crash用户与Dolphin Engine总用户的比例（主程序）</td></tr>
+<tr><td>P0/P1 bug比例(%)</td>	<td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td>从禅道系统中取得P0/P1 bug的比例（主程序）</td></tr>
+<tr class="alt"><td>WebGame渲染速度</td><td>游戏帧率(FPS)</td><td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td>选取5~10款杀手级游戏，计算游戏中的帧率（统计平均值）</td></tr>
+<tr><td colspan="13" height="20px"></td></tr>
+</tbody>
+</table>
+</div></body></html>

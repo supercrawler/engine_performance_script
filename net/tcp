@@ -1,0 +1,12 @@
+106893 TCP connect 117.41.240.241:80.
+106893 TCP connected to 117.41.240.241:80, error no = 0.
+107096 TCP connect 221.233.135.251:80.
+107096 TCP connected to 221.233.135.251:80, error no = 0.
+107096 TCP connect 221.233.135.251:80.
+107100 TCP connected to 221.233.135.251:80, error no = 0.
+107100 TCP connect 221.233.135.251:80.
+107104 TCP connected to 221.233.135.251:80, error no = 0.
+107104 TCP connect 221.233.135.251:80.
+107108 TCP connected to 221.233.135.251:80, error no = 0.
+107112 TCP connect 221.233.135.251:80.
+107116 TCP connected to 221.233.135.251:80, error no = 0.

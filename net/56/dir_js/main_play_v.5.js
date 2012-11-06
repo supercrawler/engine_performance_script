@@ -1,0 +1,19 @@
+
+var webid="i";var serachUrl='';var jLoad='';var isReady=0;var tq=0;var scroll_status=1;var ___script___={channel:'index',top:{All:{"js":["http://s1.56img.com/script/lib/jquery/jquery-1.4.4.min.js","http://s2.56img.com/script/page/common/v3/o_utf8.js?v=0724v1","http://s2.56img.com/script/page/common/v3/uaction_index.js"],"js_charset":["utf-8","utf-8","utf-8"]},channel:{'index':{"js":["http://"+(typeof debug_js!='undefined'?'js.':'s2.')+"56img.com/script/page/index/v3/home_lib2011_v.41.js?v=120912","http://"+(typeof debug_js!='undefined'?'js.':'s2.')+"56img.com/script/page/index/v3/hf_v.3.js?v=120926","http://s2.56img.com/script/fn/search/v3/search_v3.js","http://s2.56img.com/script/page/common/v3/homepage_citylib_utf8.js","http://s2.56img.com/script/page/dianbo/v3/playlistbar_v.2.js?v=120815v2","http://s1.56img.com/script/fn/stat/v3/56stat.js?v=0815.js"],"js_charset":["utf-8","utf-8","utf-8","utf-8","utf-8","utf-8"]}}},foot:{All:{},channel:{}},include:function(station,channel)
+{station=station?'foot':'top';channel=channel||this.channel||'index';var vars=this[station];this._include(vars.All);this._include(vars.channel[channel]);},_includeScript:function(url,id,defer,js_charset)
+{url=url?' src="'+url+'" ':'';id=id?' id="'+id+'" ':'';defer=defer||'';js_charset=js_charset?'charset="'+js_charset+'"':'';document.write('<script '+js_charset+' type="text/javascript" '+id+' '+url+' '+defer+'></script>');},_includeCss:function(url,id)
+{url=url?' href="'+url+'" ':'';id=id?' id="'+id+'" ':'';document.write('<link rel="stylesheet" type="text/css" '+id+' '+url+' />');},_include:function(o)
+{var k,a;for(k in o)
+{a=o[k];if(k=='js')
+{for(i=0;i<a.length;i++){try{if(typeof(o["js_charset"])!="undefined"&&typeof(o["js_charset"][i])!="undefined"){this._includeScript(a[i],"","",o["js_charset"][i]);}else{this._includeScript(a[i]);}}catch(e){}}}else if(k=='css')
+{for(i=0;i<a.length;i++){this._includeCss(a[i]);}}else if(k=='js_id')
+{for(i=0;i<a.length;i++){this._includeScript('',a[i]);}}else if(k=='css_id')
+{for(i=0;i<a.length;i++){this._includeCss('',a[i]);}}else if(k=='script')
+{eval(a);}}},clientType:function(){var sUserAgent=navigator.userAgent.toLowerCase();var sUrlRedirect="";var oUrlRedirect={"ipad":"ipad","pad":"pad","smart":"smart","m":"m"};var aClient=["ipad","iphone os","android","ucweb","rv:1.2.3.4","windows ce","windows mobile","midp"];for(var i=0;i<aClient.length;i++){if(sUserAgent.indexOf(aClient[i])!=-1){switch(aClient[i]){case"ipad":sUrlRedirect=oUrlRedirect["ipad"];break;case"iphone os":sUrlRedirect=oUrlRedirect["smart"];break;case"android":oAndroidRedirect={sPhoneUrl:oUrlRedirect["smart"],sPadUrl:oUrlRedirect["pad"]};sUrlRedirect=this._androidClientType(oAndroidRedirect);break;default:sUrlRedirect=oUrlRedirect["m"];}}}
+return sUrlRedirect;},_androidClientType:function(oAndroidRedirect){var sUrlRedirect="";if(oAndroidRedirect){var sUA=navigator.userAgent.toLowerCase();var nWidth=window.outerWidth;var nHeight=window.outerHeight;var aDeviceList=['SAMSUNG-SGH-I717','Galaxy Nexus','MT917','HUAWEI_T9510E_TD','HuaweiU9500E','HuaweiU9500','HuaweiU9510E','HuaweiU9501L'];var bForcePhone=true;var nMax=Math.max(nWidth,nHeight);var nMin=Math.min(nWidth,nHeight);if((nMax>=1000)&&(nMin>=700)){bForcePhone=false;}
+for(var i=0;i<aDeviceList.length;i++){if(sUA.indexOf(aDeviceList[i].toLowerCase())!=-1){bForcePhone=true;break;}}
+if(bForcePhone){sUrlRedirect=oAndroidRedirect['sPhoneUrl'];}else{sUrlRedirect=oAndroidRedirect['sPadUrl'];}}
+return sUrlRedirect;}};___script___.include();try{document.domain="56.com";}catch(e){}
+function renren_show_login(){set_renren_auto_cookie();}
+function renren_refresh(){_h.readyLogin('s1','s2');return false;}
+function onLoginSucces(){_h.readyLogin('s1','s2');return false;}

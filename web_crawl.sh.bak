@@ -1,0 +1,43 @@
+#!/bin/sh
+
+#params cn store ->web_data_cn or store web_data_en
+echo "begin collect dolphin engine  Open Web data~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+#history -c
+#adb logcat -c
+#if [ $1 == "en" ]; then
+#    adb shell am instrument -w -e class com.testcase.PageLoading com.dolphin.browser.lab.en.test/android.test.InstrumentationTestRunner
+#else
+#    adb shell am instrument -w -e class com.testcase.PageLoading com.dolphin.browser.lab.cn.test/android.test.InstrumentationTestRunner
+#fi
+
+PATTERN_STR="[TraceLog]Web Page Open: takes"
+i=0
+sum=0
+
+adb logcat -c
+echo "$1"
+adb logcat | while read line
+do
+    if [ $i -ge 10 ]; then
+        cc=`echo "$sum" | awk '{ printf("%g", $1 / 10);}'`
+        echo "Result:"$cc
+        if [ $1 == "en" ]; then
+            echo $cc>web_data_en
+        else
+            echo $cc>web_data_cn
+        fi
+        break
+    fi
+
+    mm=`awk 'BEGIN {print index("'"$line"'","'"$PATTERN_STR"'")}'`
+    if [ $mm -gt 0 ]; then
+        echo $i
+        num=`echo $line | awk '{print $7}' | grep -o "[0-9]*"`
+        echo $line
+        echo $num
+        sum=`expr $sum + $num`
+        echo $sum
+
+        i=`expr $i + 1`
+    fi
+done
